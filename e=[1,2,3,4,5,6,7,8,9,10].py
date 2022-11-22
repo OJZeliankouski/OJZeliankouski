@@ -7,6 +7,6 @@ for i in a:
     if i==b:
         print("*"*r,"+"*x,"*"*d)
         x+=2
-        d+=1
+        d-=1
         b+=1
-        c-=1
+        r-=1
